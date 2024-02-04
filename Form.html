@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Payment Gateway</title>
+</head>
+<body>
+    <fieldset class="maincontainer">
+        <form action="mailto:sraig2002@gmail.com" method="post">
+            <div class="container">
+            
+                <div class="div1"> 
+                    <div>
+                        <label for="FullName" >Full Name :<span>*</span>  </label><br>
+                        
+                    <input class="fullname" type="text" name="FullName" id="FullName" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Email">Email :<span>*</span></label>
+                        <br>
+                        <input class="email" type="email" name="Email" id="Email"  required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="TelephoneNo">Telephone Number :<span>*</span></label>
+                        <br>
+                        <input class="tel" type="tel" name="TelephoneNo" id="TelephoneNo"  maxlength="10" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Address">Address :<span>*</span></label>
+                        <br>
+                        <input class="add" type="text" name="Address" id="Address"   required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Address2">Address2 :</label>
+                        <br>
+                        <input class="add" type="text" name="Address2" id="Address2"  >
+                    </div>
+                    <div>
+                        <label for="Address3">Address3 :</label>
+                        <br>
+                        <input class="add" type="text" name="Address3" id="Address3"  >
+                    </div>
+                    <br>
+                    <div>
+                        <label for="City">City :<span>*</span></label>
+                        <br>
+                        <input class="city" type="text" name="City" id="City"   required>
+                    </div>
+                    <br>
+                    <section class="container1">
+                        <div class="div3"> 
+                            <div>
+                                <label  class="provincetext">Province :<span>*</span></label><br>
+                                <br>
+                                <select class="province" name="Province">
+                                    <option value="required " selected label="Province"></option>
+                                    <option value="North Central Province">North Central Province</option>
+                                    <option value="Uva Province" >Uva Province</option>
+                                    <option value="Northern Province">Northern Province</option>
+                                    <option value="Cental Province">Cental Province</option>
+                                    <option value="North Western Province">North Western Province</option>
+                                    <option value="Sabaragamuwa Province">Sabaragamuwa Province</option>
+                                    <option value="Eastern Province">Eastern Province</option>
+                                    <option value="Southern Province">Southern Province</option>
+                                    <option value="Western Province">Western Province</option>
+                                </select>
+        
+                            </div>
+                            
+                        </div>
+                        <div class="div4">
+                            
+                            <div>
+                                <label  class="zipcodetxt" for="ZipCode">ZipCode :<span>*</span></label>
+                                <br>
+                                <br>
+                                <input class="zipcode" type="text" name="ZipCode" id="ZipCode" placeholder="10200" maxlength="5">
+        
+                            </div>
+                        </div>
+                        
+                    </section>
+                </div>
+        
+                <div class="div2">
+                    <div class="cards" >
+                        <label>Accepted Cards :</label><br>
+                        <br>
+                        <img src="card2.png" alt="">
+                    </div>
+            
+                    <div>
+                        <label for="NameOnCardHolder">Name Of Card Holder:<span>*</span></label><br>
+                        <input class="nameoncard" type="text" name="NameOnCard" id="NameOnCardHolder"  required>
+                    </div>
+
+                    <div>
+                        <br>
+                        <label for="CreditCardNo">Credit Card Number :<span>*</span></label><br>
+                        <input class="creditcardno" type="text" name="CreditCardNo" id="CreditCardNo"  maxlength="16" required>
+
+                    </div>
+
+                    <div>
+
+                        <label class="cvvtext" for="CVV">CVV:<span>*</span></label><br>
+                        <input class="cvv" type="text" name="CVV"  maxlength="3" id="CVV"   required>
+
+                    </div>
+                    <br>
+
+                    <section class="container2">
+                        <div class="div5">
+                            <label class="ExpDate">Expirartion Date</label>
+                        <br>
+                        <br>
+                        <label class="EXpMonth">Month<span>*</span></label>
+                        <br>
+                        <br>
+                        <select name="Month">
+                            <option value="" selected label="Month"></option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        </div>
+                        
+                        <br>
+                    <div class="div6">
+                        <label class="ExpDate"></label>
+                        <br>
+                        <br>
+                        <label class="yeartext" >Year:<span>*</span></label>
+                        <br>
+                        <br>
+                        <select  class="select1"  name="Year">
+                            <option value="" selected label="year"></option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                        </select>
+                    </div>
+                    </section>
+                    <section class="container3">
+                        <div class="div7">
+                            <br>
+                            <br>
+                            <button class="submit-btn" type="submit" onclick="return validate()">Submit Payment</button>
+                        </div>
+                        
+                        
+                    </section>
+                    
+                 </div>
+        
+            </div>
+
+        </form>
+        
+
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,243 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(77,168,161,1) 35%, rgba(0,212,255,1) 100%);
+}
+fieldset{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border-color: rgb(19, 24, 24);
+    border-width: 5px;
+    height: 680px;
+  
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 70vh;
+    width: 110vh;
+
+}
+
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color:lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right:10px ;
+    
+      
+    }
+.div2 { 
+    
+    background-color:lightblue;
+    grid-area: 1 / 2 / 2 / 3;
+    border-radius: 10px;
+    padding: 20px;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 36px;
+    grid-row-gap: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.div3 { 
+    grid-area: 1 / 1 / 2 / 2;
+ }
+.div4 { 
+    
+    grid-area: 1 / 2 / 2 / 3;
+ }
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 36px;
+    grid-row-gap: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.div5 { 
+    grid-area: 1 / 1 / 2 / 2;
+ }
+.div6{ 
+    
+    grid-area: 1 / 2 / 2 / 3;
+ }
+ .container3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 36px;
+    grid-row-gap: 0px;
+ }
+ .div7 { 
+    grid-area: 1 / 2 / 2 / 3; 
+}
+button{
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+}
+button :hover{
+    color: #461ea1;
+}
+
+
+.cards img{
+    width: 350px;
+    height: 150px;
+}
+.fullname{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+    
+}
+.email{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+
+}
+.tel{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+
+}
+.add{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+
+}
+.city{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+
+}
+.province{
+    
+    left: 0px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    
+
+}
+.zipcode{
+   
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+
+}
+.zipcodetxt{
+    
+    font-size: 18px;
+}
+
+.nameoncard{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+
+}
+
+.creditcardno{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+
+}
+
+
+
+.cvv{
+    
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+
+    font-size: 18px;
+    
+}
+.fieldset{
+    
+    background-color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    height: 130px;
+    width: 300px;
+    
+}
+
+select{
+    
+    border: 0;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.select1{
+    border: 0;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+
+}
+.button{
+    font-family:Belanosima;
+    font-weight: 900;
+    background: #49c50a9b;
+    color: #12091e;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.province{ 
+    height: 40px;
+}
+h3{
+    color:#fff ;
+}
+label span{
+    color: red;
+}
